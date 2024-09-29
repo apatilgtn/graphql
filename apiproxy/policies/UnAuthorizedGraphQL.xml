@@ -6,11 +6,10 @@
         <Set>
             <Headers/>
             <Payload contentType="application/json">
-{
-  "error": "UnauthorizedQuery",
-  "message": "{graphql.authz.error_message}"
-}
-                
+                {
+                    "error": "UnauthorizedQuery",
+                    "message": "{graphql.authz.error_message}"
+                }
             </Payload>
             <StatusCode>403</StatusCode>
             <ReasonPhrase>Unauthorized</ReasonPhrase>
